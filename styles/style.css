@@ -1,0 +1,61 @@
+ul{
+    float: right;
+    list-style-type: none;
+    
+
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+    
+
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+
+.half-width{
+    width:40%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 50%;
+    left:10%
+
+   
+}
+img{
+    height: 70%;
+    width: 40%;
+    position:absolute;
+    top:30%;
+    left:50%;
+}
+.preebook-now{
+    text-decoration: none;
+    background-color: firebrick;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+    
+     
+
+
+
