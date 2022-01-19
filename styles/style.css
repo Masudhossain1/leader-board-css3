@@ -22,27 +22,30 @@ body{
 h1{
     font-size: 50px;
 }
-section{
-    display: flex;
+.banner{
+    
+   display:flex;
+   justify-content: space-between;
 }
 
 .half-width{
-    width:40%;
-    padding-left: 5%;
+    width:50%;
+   
     
 }
 .half-width img{
-    width: 50%;
-    left:10%
+    width: 70%;
+    margin: 20%;
+    
+    
 
    
 }
 img{
     height: 70%;
-    width: 40%;
-    position:absolute;
-    top:30%;
-    left:50%;
+   
+    
+
 }
 .preebook-now{
     text-decoration: none;
@@ -53,9 +56,41 @@ img{
     font-weight: 700;
     
 }
+h2{
+   text-align: center; 
+}
+.masud{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+.popular img{
+   
+    width: 400px;
+    height: 250px;
+}
+
+.course-info{
+    
+    display: flex;
+    align-items:stretch;
+    flex-direction: column;
+}
+
+.fa-star{
+    font-size:12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+
 
     
      
+
 
 
 
